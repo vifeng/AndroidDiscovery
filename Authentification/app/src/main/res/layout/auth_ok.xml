@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/auth_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Authentifié !"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Navigateur Web" />
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Google Map" />
+
+    <View
+        android:id="@+id/divider7"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="?android:attr/listDivider"
+        android:visibility="visible" />
+
+    <!--<Button
+        android:id="@+id/btAutreApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lancer Coucou.app" />
+-->
+    <Button
+        android:id="@+id/recupApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="récupérer valeur app coucou" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:layout_marginBottom="41dp"
+            android:layout_weight="1"
+            android:text="Résultat" />
+
+        <TextView
+            android:id="@+id/res"
+            android:layout_width="219dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

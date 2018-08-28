@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Authentification</string>
+    <string name="txtIntro">Entrer votre login et mot de passe</string>
+    <string name="txtButton">Connexion</string>
+</resources>
